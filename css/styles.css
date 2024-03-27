@@ -1,14 +1,52 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
 ul {
   list-style: none;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-left: 0%;
 }
 a {
   text-decoration: none;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-left: 0%;
 }
+.visually-hidden {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
+
+/*HEDER*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -48,9 +86,17 @@ body {
 .address:focus {
   color: #404bbf;
 }
+/*MAIN*/
 
 .main-section {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.main-hero {
+  max-width: 496px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 .main-hero {
   font-size: 56px;
@@ -58,6 +104,10 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+}
+.main-button {
+  display: block;
+  margin: 0 auto;
 }
 .main-button {
   background-color: #4d5ae5;
@@ -72,12 +122,19 @@ body {
   background-color: #404bbf;
   cursor: pointer;
 }
+
+.main-services {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .description {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .description-list {
   font-weight: 400;
@@ -89,7 +146,12 @@ body {
 /*Our Team_3_секція*/
 
 .staff {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
+}
+.employees {
+  padding-bottom: 72px;
 }
 .employees {
   font-size: 36px;
@@ -101,6 +163,10 @@ body {
 }
 .employees-item {
   background-color: #ffffff;
+}
+.list-names {
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .list-names {
   font-weight: 500;
@@ -119,6 +185,14 @@ body {
 
 /*Our Portfolio_4_секція*/
 
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.labor {
+  padding-bottom: 72px;
+}
+
 .labor {
   font-size: 36px;
   line-height: 1.11;
@@ -126,6 +200,10 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.work-example {
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .work-example {
   font-weight: 500;
@@ -143,10 +221,12 @@ body {
 }
 /*Footer*/
 
-.basement_unit {
+.footer-section {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.unit_logo-web {
+.unit-logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -155,7 +235,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.unit_logo-studio {
+.unit-logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -163,6 +243,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.unit-list {
+  padding-top: 16px;
+  max-width: 264px;
 }
 .unit-list {
   font-family: "Roboto", sans-serif;
