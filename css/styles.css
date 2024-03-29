@@ -34,6 +34,9 @@ a {
   padding-right: 15px;
   margin: 0 auto;
 }
+img {
+  display: block;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -45,8 +48,20 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-}
 
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-menu {
+  display: flex;
+  width: 1158px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.logo-header {
+  margin-right: 76px;
+}
 .logo-web {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -58,6 +73,10 @@ body {
 }
 .logo-studio {
   color: #2e2f42;
+}
+.nav-menu {
+  display: flex;
+  gap: 40px;
 }
 .nav-list {
   font-weight: 500;
@@ -73,6 +92,11 @@ body {
 
 .header-address {
   font-style: normal;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 332px;
 }
 
 .address {
