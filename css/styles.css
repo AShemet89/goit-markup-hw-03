@@ -134,6 +134,13 @@ body {
   margin: 0 auto;
 }
 .main-button {
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-button {
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -151,7 +158,13 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.description-main {
+  display: flex;
+  gap: 24px;
+}
+.description {
+  width: calc((100% - 72px) / 4);
+}
 .description {
   font-weight: 500;
   font-size: 20px;
@@ -175,7 +188,7 @@ body {
   background-color: #f4f4fd;
 }
 .employees {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .employees {
   font-size: 36px;
@@ -185,10 +198,20 @@ body {
   text-align: center;
   color: #2e2f42;
 }
+.employees-list {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
 .employees-item {
   background-color: #ffffff;
 }
+.container-names {
+  padding: 32px 0;
+}
 .list-names {
+  text-align: center;
   padding-top: 32px;
   padding-bottom: 8px;
 }
@@ -205,6 +228,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+
+  text-align: center;
 }
 
 /*Our Portfolio_4_секція*/
