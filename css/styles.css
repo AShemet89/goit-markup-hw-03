@@ -172,7 +172,7 @@ body {
   gap: 24px;
 }
 .description-items {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .description {
   font-weight: 500;
